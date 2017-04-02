@@ -1,0 +1,19 @@
+{
+  "name": "gce-express-starter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js",
+    "deploy": "gcloud app deploy"
+  },
+  "keywords": [
+    "app.js"
+  ],
+  "author": "app.yaml",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.15.2"
+  }
+}
